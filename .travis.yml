@@ -1,4 +1,5 @@
 language: generic 
+
 sudo: required
 
 services:
@@ -15,7 +16,7 @@ deploy:
   region: "eu-central-1"
   app: "docker_react"
   env: "Dockerreact-env"
-  bucket_name: "Dockerreact-env.eba-i8jetwib.eu-central-1.elasticbeanstalk.com "
+  bucket_name: "Dockerreact-env.eba-ukdjj4va.eu-central-1.elasticbeanstalk.com"
   bucket_path: "docker_react"
   on:
     branch: master  
